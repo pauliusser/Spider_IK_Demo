@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4415668057102751122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4555610710519360367}
+  - component: {fileID: 8532954814113686763}
+  - component: {fileID: 5689008040778228398}
+  - component: {fileID: 6506322671424954890}
+  m_Layer: 0
+  m_Name: procedural Leg controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4555610710519360367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415668057102751122}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.21130913, y: 0, z: 0.45315388}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8532954814113686763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415668057102751122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d5b555bff3e3a541bdc02b4366775c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AdvancedCircleGizmo
+  radius: 0.16
+  segments: 64
+  color: {r: 0, g: 0, b: 0, a: 1}
+  arcMode: 0
+  arcStart: 0
+  arcEnd: 360
+  clockwise: 1
+  enableTicks: 0
+  ticksOnly: 0
+  tickCount: 1
+  tickSize: 0.05
+  drawOnTop: 0
+  tickLocalPositions:
+  - {x: 0, y: 0, z: 0.16}
+--- !u!114 &5689008040778228398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415668057102751122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d5b555bff3e3a541bdc02b4366775c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AdvancedCircleGizmo
+  radius: 0.16
+  segments: 64
+  color: {r: 0, g: 1, b: 0, a: 1}
+  arcMode: 0
+  arcStart: 0
+  arcEnd: 360
+  clockwise: 1
+  enableTicks: 1
+  ticksOnly: 1
+  tickCount: 1
+  tickSize: 0.05
+  drawOnTop: 0
+  tickLocalPositions:
+  - {x: 0, y: 0, z: 0.16}
+--- !u!114 &6506322671424954890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4415668057102751122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d7ab330f037ba54da6a4caedf790b51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpiderLegProceduralController
+  parentObject: {fileID: 0}
+  gizmoIndex: 1
+  tickIndex: 0
