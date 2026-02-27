@@ -1,3 +1,7 @@
+### Spider IK
+
+![Spider IK](media/spider_ik_demo.webp)
+
 # Spider IK Demo – Procedural Spider Locomotion with Inverse Kinematics
 
 This project demonstrates a procedural spider locomotion system using inverse kinematics (IK). It features a fully configurable 8‑legged spider that can walk smoothly on any surface—floors, walls, ceilings—with coordinated leg movements and real‑time pose solving.
